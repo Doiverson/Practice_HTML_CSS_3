@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f0f0f0;
+    font-family: "DINProRegular", "Helvatica Neue", sans-serif;
+    font-size: 13px;
+    color: black;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: "adelle", Georgia, serif;
+    font-weight: normal;
+    color: white;
+}
+
+h2 {
+    font: normal 20px "adelle", Georgia, serif;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+a {
+    color: #27aae1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #146a8e;
+}
+
+#header {
+    background: white;
+    padding: 0 10px;
+}
+
+#header div {
+    width: 960px;
+    height: 60px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 182px;
+    height: 26px;
+    margin: 17px 0 2px 0;
+}
+
+#nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+#nav li {
+    list-style: none;
+    float: left;
+    padding-left: 35px;
+}
+
+#nav li a {
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#stage {
+    background: #27aae1 url(../image/quebec.jpg) 55% top no-repeat ;
+    background-size: 882px 340px;
+    box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#stage  div {
+    width: 960px;
+    height: 340px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+#stage div h1 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 46px;
+    line-height: 60px;
+}
+
+#stage div ul {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    width: 460px;
+    margin-top: 130px;
+}
+
+
