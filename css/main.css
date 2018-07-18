@@ -23,6 +23,10 @@ h2 {
     padding: 10px 0;
 }
 
+ul li {
+    list-style: none;
+}
+
 a {
     color: #27aae1;
     text-decoration: none;
@@ -96,4 +100,59 @@ a:hover {
     margin-top: 130px;
 }
 
+#stage li  {
+    list-style: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+}
 
+#stage li a {
+    display: block;
+    font-family: "DINProRegular", "Helvatica Neue", sans-serif;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+    padding: 0 30px;
+}
+
+#stage #first {
+    boder-color: black;
+    float: left;
+}
+
+#first a {
+    color: black;
+}
+
+#stage #second {
+    border-color: white;
+    float: right;
+}
+
+#second a {
+    color: white;
+}
+
+#content {
+    background: white;
+    overflow: auto;
+}
+
+#content div {
+    width: 960px;
+    padding: 30px 10px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#motto {
+    max-width: 500px;
+    font: 16px "adelle", Georgia, serif;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
