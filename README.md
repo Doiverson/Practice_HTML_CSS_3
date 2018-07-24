@@ -2,4 +2,9 @@
 <https://doiverson.github.io/Practice_HTML_CSS_3/>
 
 ***
-![ScreenShot](../screenshot.jpg)
+![ScreenShot](docs/screenshot.png)
+***
+
+```
+※Non-Profit-Purpose
+```
