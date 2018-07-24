@@ -72,11 +72,11 @@ a:hover {
     line-height: 40px;
 }
 
-#stage {
-    background: #27aae1 url(../image/quebec.jpg) 55% top no-repeat ;
-    background-size: 882px 340px;
-    box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.1);
-}
+/*#stage {*/
+    /*background: #27aae1 url(../image/quebec.jpg) 55% top no-repeat ;*/
+    /*background-size: 882px 340px;*/
+    /*box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.1);*/
+/*}*/
 
 #stage  div {
     width: 960px;
@@ -142,7 +142,7 @@ a:hover {
     overflow: auto;
 }
 
-#content div {
+#content > div {
     width: 960px;
     padding: 30px 10px;
     margin: 0 auto;
@@ -155,4 +155,72 @@ a:hover {
     line-height: 30px;
     text-align: center;
     margin: 20px auto 0 auto;
+}
+
+#teasers {
+    text-align: center;
+    padding: 40px 0;
+    overflow: auto;
+}
+
+#teasers div {
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+
+#teasers div img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 10px auto;
+}
+
+#footer {
+    padding: 30px 10px 100px 10px;
+}
+
+#footer > div {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#footer > div .double {
+    width: 50%;
+}
+
+#footer > div .block {
+    float: left;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+#footer > div .block h3 {
+    font: normal 16px "adelle", Georgia, serif;
+    line-height: 40px;
+}
+
+#footer > div .block ul li {
+    list-style: none;
+    padding: 5px 0;
+    float: left;
+    width: 240px;
+}
+
+#footer > div .single {
+    width: 25%;
+}
+
+#footer > div #bottom {
+    width: 100%;
+    clear: both;
+}
+
+#footer > div #bottom p:first-child{
+    float: left;
+}
+
+#footer > div #bottom p:last-child{
+    float: right;
 }
